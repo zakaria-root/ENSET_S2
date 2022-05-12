@@ -45,6 +45,12 @@ public:
     }
     bool coincide(segment s)
     {
+
+
+
+
+
+        
         return (x == s.x && y == s.y) || (z == s.z && s.t == t);
     }
 };
